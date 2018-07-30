@@ -1,0 +1,114 @@
+/* Link */
+.astoundify-favorites-link {
+	color: #444;
+}
+
+.astoundify-favorites-link.active {
+	color: #F15268;
+}
+
+.astoundify-favorites-link.active .astoundify-favorites-icon svg{
+	fill: #F15268;
+}
+
+/* Icon */
+.astoundify-favorites-icon{
+	width: 1em;
+	height: auto;
+}
+
+.astoundify-favorites-icon svg{
+	width: 1em;
+	height: auto;
+}
+
+/* Fields */
+.astoundify-favorites-note-field {
+	margin-bottom: 20px;
+}
+
+.astoundify-favorites-list-field {
+	margin-bottom: 20px;
+}
+
+.astoundify-favorites-submit-field {
+	margin-bottom: 0;
+}
+
+.astoundify-favorites-submit-field:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+
+.astoundify-favorites-submit-field .astoundify-favorites-remove-favorite{
+	float: right;
+}
+
+/* Pop Up */
+.astoundify-favorites-popup,
+.astoundify-favorites-popup-notices {
+	display: block;
+	width: 400px;
+	max-width: 90%;
+	margin: 0 auto;
+	padding: 20px;
+	background: #fff;
+	position: relative;
+}
+
+.astoundify-favorites-popup-notices .mfp-close {
+	display: none;
+}
+
+/* Notices */
+.astoundify-favorites-notice {
+	padding: 6px 9px;
+	margin: 0 auto 25px;
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.astoundify-favorites-notice:last-of-type{
+	margin-bottom: 0;
+}
+
+.astoundify-favorites-notice-info {
+	background: #eee;
+	border: 1px solid #ccc;
+}
+
+.astoundify-favorites-notice-error {
+	background: #ffebe8;
+	border: 1px solid #C00;
+}
+
+.astoundify-favorites-notice-success {
+	background: #e7f7d3;
+	border: 1px solid #6c3;
+}
+
+/* Dashboard */
+
+/* Tabs */
+#astoundify-favorites-dashboard-view-tabs {
+	margin-bottom: 10px;
+}
+
+.astoundify-favorites-view-favorites {
+	margin-right: 5px;
+}
+
+.astoundify-favorites-tab--active,
+.astoundify-favorites-tab--active:hover,
+.astoundify-favorites-tab--active:focus {
+	color: #aaa;
+	text-decoration: none;
+}
+
+
+
+

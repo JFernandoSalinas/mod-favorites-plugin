@@ -1,0 +1,425 @@
+# Copyright (C) 2018 astoundify-favorites
+# This file is distributed under the same license as the astoundify-favorites package.
+msgid ""
+msgstr ""
+"Project-Id-Version: astoundify-favorites\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. translators: %1$s minimum PHP version, %2$s current PHP version.
+#: astoundify-favorites.php:31
+msgid "Astoundify Favorites requires at least PHP %1$s. You are running PHP %2$s. Please upgrade and try again."
+msgstr ""
+
+#. translators: %s is favorite.
+#: app/class-actions.php:102, app/class-actions.php:141, app/class-actions.php:187, app/class-actions.php:262, app/class-actions.php:318, app/class-actions.php:349, app/class-actions.php:390, app/class-actions.php:439, app/class-actions.php:496
+msgid "%s nonce verification fail."
+msgstr ""
+
+#. translators: %s is favorite.
+#: app/class-actions.php:121
+msgid "Fail to create %s. Please try again."
+msgstr ""
+
+#. translators: %s is Favorite.
+#: app/class-actions.php:157, app/class-actions.php:199, app/class-actions.php:277, app/class-actions.php:361, app/class-actions.php:511, app/class-dashboard.php:276
+msgid "%s not found."
+msgstr ""
+
+#. translators: %s is list.
+#: app/class-actions.php:217, app/class-actions.php:407
+msgid "Fail to create %s."
+msgstr ""
+
+#. translators: %s is Favorite.
+#: app/class-actions.php:232, app/class-actions.php:466
+msgid "%s updated."
+msgstr ""
+
+#. translators: %s is favorite.
+#: app/class-actions.php:244, app/class-actions.php:478
+msgid "Fail to update %s."
+msgstr ""
+
+#. translators: %s is favorite.
+#: app/class-actions.php:299
+msgid "Fail to remove %s."
+msgstr ""
+
+#. translators: %s is list.
+#: app/class-actions.php:415
+msgid "New %s created."
+msgstr ""
+
+#. translators: %s is List.
+#: app/class-actions.php:452
+msgid "List not found."
+msgstr ""
+
+#. translators: %s is List.
+#: app/class-actions.php:526
+msgid "%s removed."
+msgstr ""
+
+#. translators: %s is list.
+#: app/class-actions.php:530
+msgid "Fail to remove %s. Please try again."
+msgstr ""
+
+#. translators: %s is Favorite.
+#: app/class-dashboard.php:238
+msgid "%s item not found."
+msgstr ""
+
+#. translators: %1$s favorite, %2$s list name, %3$s all favorite link. %s is favorite.
+#: app/class-dashboard.php:306
+msgid "You are currently browsing %1$s in %2$s. %3$s"
+msgstr ""
+
+#: app/class-dashboard.php:306
+msgid "View all %s"
+msgstr ""
+
+#: app/class-favorite-list-query.php:114, app/functions.php:308
+msgid "+ Create new %s"
+msgstr ""
+
+#: app/class-favorite-list-setup.php:71, app/class-settings.php:142, app/class-settings.php:267, app/functions.php:631, app/functions.php:633
+msgid "Lists"
+msgstr ""
+
+#: app/class-favorite-list-setup.php:72, app/class-favorite-list-setup.php:81, app/class-settings.php:141, app/class-settings.php:251, app/functions.php:627, app/functions.php:629
+msgid "List"
+msgstr ""
+
+#: app/class-favorite-list-setup.php:73, app/class-favorite-setup.php:83
+msgid "Search Items"
+msgstr ""
+
+#: app/class-favorite-list-setup.php:74, app/class-favorite-setup.php:81
+msgid "All Items"
+msgstr ""
+
+#: app/class-favorite-list-setup.php:75
+msgid "Parent Item"
+msgstr ""
+
+#: app/class-favorite-list-setup.php:76
+msgid "Parent Item Colon:"
+msgstr ""
+
+#: app/class-favorite-list-setup.php:77, app/class-favorite-setup.php:79
+msgid "Edit Item"
+msgstr ""
+
+#: app/class-favorite-list-setup.php:78
+msgid "Update Item"
+msgstr ""
+
+#: app/class-favorite-list-setup.php:79, app/class-favorite-setup.php:78
+msgid "Add New Item"
+msgstr ""
+
+#: app/class-favorite-list-setup.php:80
+msgid "New Item Name"
+msgstr ""
+
+#: app/class-favorite-list-setup.php:101
+msgid "List Author"
+msgstr ""
+
+#: app/class-favorite-list-setup.php:103
+msgid "User ID:"
+msgstr ""
+
+#: app/class-favorite-list.php:209, app/class-favorite.php:255
+msgid "Edit"
+msgstr ""
+
+#: app/class-favorite-list.php:257, app/class-favorite.php:312
+msgid "Remove"
+msgstr ""
+
+#: app/class-favorite-setup.php:75, app/class-favorite-setup.php:86, app/class-settings.php:95, app/class-settings.php:140, app/class-settings.php:235, app/functions.php:623, app/functions.php:625
+msgid "Favorites"
+msgstr ""
+
+#: app/class-favorite-setup.php:76, app/class-settings.php:139, app/class-settings.php:219, app/functions.php:619, app/functions.php:621
+msgid "Favorite"
+msgstr ""
+
+#: app/class-favorite-setup.php:77
+msgid "Add New"
+msgstr ""
+
+#: app/class-favorite-setup.php:80
+msgid "New Item"
+msgstr ""
+
+#: app/class-favorite-setup.php:82
+msgid "View Item"
+msgstr ""
+
+#: app/class-favorite-setup.php:84
+msgid "Not Found"
+msgstr ""
+
+#: app/class-favorite-setup.php:85
+msgid "Not Found in Trash"
+msgstr ""
+
+#: app/class-favorite-setup.php:122
+msgid "Favorites Info"
+msgstr ""
+
+#: app/class-favorite-setup.php:143
+msgid "Target:"
+msgstr ""
+
+#: app/class-favorite-setup.php:148, app/class-favorite-target.php:118
+msgid "N/A"
+msgstr ""
+
+#: app/class-favorite.php:94
+msgid "%1$s Favorited %2$s"
+msgstr ""
+
+#: app/class-scripts.php:47
+msgid "Are you sure?"
+msgstr ""
+
+#: app/class-settings.php:94, app/class-settings.php:111, app/class-setup.php:191, bootstrap/install.php:60
+msgid "Favorites Settings"
+msgstr ""
+
+#: app/class-settings.php:150
+msgid "General"
+msgstr ""
+
+#: app/class-settings.php:157, app/class-setup.php:147
+msgid "Default Lists"
+msgstr ""
+
+#: app/class-settings.php:165
+msgid "Separate lists with commas. This default lists will be created automatically for new users on registration."
+msgstr ""
+
+#: app/class-settings.php:176
+msgid "Pages"
+msgstr ""
+
+#: app/class-settings.php:183
+msgid "Dashboard Page"
+msgstr ""
+
+#: app/class-settings.php:188
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: app/class-settings.php:196
+msgid "Add [astoundify-favorites-dashboard] shortcode in selected page."
+msgstr ""
+
+#: app/class-settings.php:207
+msgid "Labels"
+msgstr ""
+
+#: app/class-settings.php:214
+msgid "Favorite Singular"
+msgstr ""
+
+#: app/class-settings.php:230
+msgid "Favorite Plural"
+msgstr ""
+
+#: app/class-settings.php:246
+msgid "List Singular"
+msgstr ""
+
+#: app/class-settings.php:262
+msgid "List Plural"
+msgstr ""
+
+#: app/class-settings.php:285, app/class-settings.php:292
+msgid "License"
+msgstr ""
+
+#: app/class-settings.php:300
+msgid "Enter your license key received during purchase to receive automatic update notifications."
+msgstr ""
+
+#: app/class-settings.php:344
+msgid "Tab"
+msgstr ""
+
+#: app/class-setup.php:38
+msgid "Favorites Setup"
+msgstr ""
+
+#: app/class-setup.php:39
+msgid "Setup Favorites"
+msgstr ""
+
+#: app/class-setup.php:55
+msgid "Next Step"
+msgstr ""
+
+#: app/class-setup.php:56
+msgid "Skip"
+msgstr ""
+
+#: app/class-setup.php:72
+msgid "🎉 Great News! Favorites by Astoundify has been successfully installed. Visitors can view their favorites on the My Favorites dashboard page. You can change this in the Favorites Settings panel."
+msgstr ""
+
+#: app/class-setup.php:72
+msgid "This setup wizard will help you get started by creating the favorites dashboard page."
+msgstr ""
+
+#: app/class-setup.php:74
+msgid "If you want to skip the wizard and setup the page and shortcode yourself manually, the process is still relatively simple. Refer to the %s for help."
+msgstr ""
+
+#: app/class-setup.php:74
+msgid "documentation page"
+msgstr ""
+
+#: app/class-setup.php:76
+msgid "Favorites Dashboard Setup"
+msgstr ""
+
+#: app/class-setup.php:82
+msgid "Page Title"
+msgstr ""
+
+#: app/class-setup.php:83
+msgid "Page Description"
+msgstr ""
+
+#: app/class-setup.php:84
+msgid "Content Shortcode"
+msgstr ""
+
+#: app/class-setup.php:90, app/class-setup.php:90
+msgctxt "Default page title (wizard)"
+msgid "My Favorites"
+msgstr ""
+
+#: app/class-setup.php:92
+msgid "This page allows users to view and edit favorites from the front-end."
+msgstr ""
+
+#: app/class-setup.php:116, bootstrap/install.php:26
+msgid "My Favorites"
+msgstr ""
+
+#: app/class-setup.php:149
+msgid "Users can create \"lists\" to group their Favorites for easier management. These default lists will be created for each user automatically during registration."
+msgstr ""
+
+#: app/class-setup.php:155
+msgid "List Names"
+msgstr ""
+
+#: app/class-setup.php:162
+msgctxt "Default lists (wizard)"
+msgid "People, Things"
+msgstr ""
+
+#: app/class-setup.php:163
+msgid "Separate multiple lists with commas."
+msgstr ""
+
+#: app/class-setup.php:191
+msgid "Default lists are set. You can change the settings in: %s."
+msgstr ""
+
+#: app/class-setup.php:206
+msgid "🎉 All Done!"
+msgstr ""
+
+#: app/class-setup.php:208
+msgid "You're all set to start using the plugin. In case you're wondering where to go next:"
+msgstr ""
+
+#: app/class-setup.php:211
+msgid "Adjust the plugin settings"
+msgstr ""
+
+#: app/functions.php:306
+msgid "- Select %s -"
+msgstr ""
+
+#: app/functions.php:310
+msgid "%s name"
+msgstr ""
+
+#: app/functions.php:370
+msgid "Add note..."
+msgstr ""
+
+#: app/functions.php:394
+msgid "%s Name"
+msgstr ""
+
+#. translators: %1$s heart SVG, %2$s Number of Favorite, %3$s Favorite singular label.
+#: app/functions.php:420, app/functions.php:423
+msgid "%1$s %2$s %3$s"
+msgstr ""
+
+#. translators: %s settings link.
+#: bootstrap/install.php:66
+msgid "Favorites by Astoundify failed to automatically install dashboard page. Please set it manually in %s."
+msgstr ""
+
+#. translators: %1$s edit created paged link, %2$s settings link.
+#: bootstrap/install.php:72
+msgid "Favorites by Astoundify has been sucessfully installed. User can view their favorites in %1$s dashboard page. You can change this in the %2$s."
+msgstr ""
+
+#: resources/templates/dashboard-404.php:15
+msgid "Not found."
+msgstr ""
+
+#: resources/templates/dashboard-favorites.php:25
+msgid "Note"
+msgstr ""
+
+#: resources/templates/dashboard-favorites.php:33
+msgid "You currently have no %s"
+msgstr ""
+
+#: resources/templates/dashboard-lists.php:24
+msgid "Count"
+msgstr ""
+
+#: resources/templates/dashboard-logged-out.php:15
+msgid "You need to be signed in to manage your %s."
+msgstr ""
+
+#: resources/templates/dashboard-view-tabs.php:18, resources/templates/dashboard-view-tabs.php:20
+msgid "All %s"
+msgstr ""
+
+#: resources/templates/form-favorite-edit.php:19
+msgid "%1$s %2$s"
+msgstr ""
+
+#: resources/templates/form-favorite-edit.php:26
+msgid "Update"
+msgstr ""
+
+#: resources/templates/form-list-edit.php:19
+msgid "New List"
+msgstr ""
+
+#: resources/templates/form-list-edit.php:24
+msgid "Save"
+msgstr ""
