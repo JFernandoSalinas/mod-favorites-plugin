@@ -1,5 +1,6 @@
 === Favorites by Astoundify ===
-Contributors: astoundify
+Created By: Astoundify
+Modified By: Fernando
 Requires at least: 4.8.0
 Tested up to: 4.9.6
 Stable tag: 1.3.0
@@ -20,6 +21,10 @@ Please contact https://astoundify.com/account/new-ticket/ for technical support 
 To install this plugin, please refer to the guide here: [http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation](http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation)
 
 == Changelog ==
+
+= 1.3.1: 
+* Custom Modifications: Modifications made to the Favorites Dashboard. Replacing the existing List and Note Columns. In its place added custom fields including, Gas, Diesel and date last updated. As required for the client https://www.widewakes.com/.
+	
 
 = 1.3.0: May 14, 2018 =
 

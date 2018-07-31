@@ -25,6 +25,6 @@
 	</td>
 	
 	<td>
-		<?php echo $favorite->get_note_html(); ?>
+		<?php echo $favorite->get_last_updated_field(); ?>
 	</td>
 </tr><!-- .astoundify-favorite -->

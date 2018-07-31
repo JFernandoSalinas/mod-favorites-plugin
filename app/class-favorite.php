@@ -184,7 +184,7 @@ class Favorite {
 
 		return "{$before}<a {$attr_str}>{$text}</a>{$after}";
 	}
-   /**
+      /**
 	 * Target Gas Price
 	 *
 	 */
@@ -198,7 +198,7 @@ class Favorite {
 		if (!empty($text)) { $text = $text;}
 		return  "<p>{$text}</p>";
 	}
-	   /**
+    /**
 	 * Target Diesel Price
 	 *
 	 */
@@ -208,6 +208,19 @@ class Favorite {
 		}
 		$listing = listify_get_listing( $this->get_target_id() );
 		$text =  $listing->get_object()->_diesel_price;
+		if (!empty($text)) { $text = $text;}
+		return  "<p>{$text}</p>";
+	}
+	 /**
+	 * Target Last Updated
+	 *
+	 */
+	public function get_last_updated_field() {
+		if ( ! $this->get_target_id()) {
+			return false;
+		}
+		$listing = listify_get_listing( $this->get_target_id() );
+		$text =  $listing->get_object()->_last_updated;
 		if (!empty($text)) { $text = $text;}
 		return  "<p>{$text}</p>";
 	}

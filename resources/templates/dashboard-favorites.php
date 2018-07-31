@@ -23,7 +23,7 @@
 				<th style="width:30%";><?php echo astoundify_favorites_label( 'Favorite' ); ?></th>
 				<th style="width:20%;">Gas Price</th>
 				<th style="width:20%;">Diesel Price</th>
-				<th><?php _e( 'Note', 'astoundify-favorites' ); ?></th>
+				<th><?php _e( 'Last Updated', 'astoundify-favorites' ); ?></th>
 			</tr>
 		</thead>
 		<tbody>
