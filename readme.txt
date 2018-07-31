@@ -22,7 +22,7 @@ To install this plugin, please refer to the guide here: [http://codex.wordpress.
 
 == Changelog ==
 
-= 1.3.1: 
+= 1.3.1: July 30, 2018 =
 * Custom Modifications: Modifications made to the Favorites Dashboard. Replacing the existing List and Note Columns. In its place added custom fields including, Gas, Diesel and date last updated. As required for the client https://www.widewakes.com/.
 	
 
